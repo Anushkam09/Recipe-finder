@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Recipes</title>
     <style>
@@ -22,14 +21,14 @@
             margin: 0;
         }
 
-        .recipe-list {
+       .recipe-list {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             padding: 20px;
         }
 
-        .recipe-card {
+       .recipe-card {
             width: 300px;
             margin: 15px;
             background-color: #fff;
@@ -39,63 +38,65 @@
             transition: transform 0.3s;
         }
 
-        .recipe-card:hover {
+       .recipe-card:hover {
             transform: scale(1.05);
         }
 
-        .recipe-card img {
+       .recipe-card img {
             width: 100%;
             height: auto;
         }
 
-        .recipe-card .recipe-info {
+       .recipe-card.recipe-info {
             padding: 10px;
         }
 
-        .recipe-card h3 {
+       .recipe-card h3 {
             margin: 0;
             font-size: 18px;
             color: #333;
         }
 
-        .recipe-card p {
+       .recipe-card p {
             font-size: 14px;
             color: #666;
+            display: none; /* hide paragraph by default */
+        }
+
+       .recipe-card:hover p {
+            display: block; /* show paragraph on hover */
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1);
         }
     </style>
 </head>
-
 <body>
     <header>
         <h1>Our favourites</h1>
     </header>
 
     <div class="recipe-list">
-        <div class="recipe-card">
+        <a href="click.html" style="text-decoration: none;"><div class="recipe-card">
             <img src="https://www.allrecipes.com/thmb/UdRDzff-6EaN6UwBA52avi_aE-4=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/19402-quick-and-easy-alfredo-sauce-DDMFS-4x3-17abb2055c714807944172db9172b045.jpg" alt="Alfredo Pasta">
             <div class="recipe-info">
                 <h3>Alfredo Pasta</h3>
                 <p>A creamy delight made with fettuccine, butter, and Parmesan. Indulgent and comforting, it's the ultimate comfort food classic. <br><br>Ingredients: <br> Time to prepare: <br>Serves: </p>
             </div>
-        </div>
+        </div></a>
 
-        <div class="recipe-card">
+        <a href="click.html"><div class="recipe-card">
             <img src="https://www.allrecipes.com/thmb/UdRDzff-6EaN6UwBA52avi_aE-4=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/19402-quick-and-easy-alfredo-sauce-DDMFS-4x3-17abb2055c714807944172db9172b045.jpg" alt="Alfredo Pasta">
             <div class="recipe-info">
                 <h3>Alfredo Pasta</h3>
                 <p>Ingredients: <br> Time to prepare: <br>Serves: </p>
             </div>
-        </div>
-        <div class="recipe-card">
+        </div></a>
+        <a href="click.html"><div class="recipe-card">
             <img src="https://www.allrecipes.com/thmb/UdRDzff-6EaN6UwBA52avi_aE-4=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/19402-quick-and-easy-alfredo-sauce-DDMFS-4x3-17abb2055c714807944172db9172b045.jpg" alt="Alfredo Pasta">
             <div class="recipe-info">
                 <h3>Alfredo Pasta</h3>
                 <p>Ingredients: <br> Time to prepare: <br>Serves: </p>
             </div>
-        </div>
-
-
+        </div></a>
     </div>
 </body>
-
 </html>
