@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Our Favourite Recipes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .recipe-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .recipe-card {
+      width: 300px;
+      margin: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .recipe-card:hover {
+      transform: scale(1.05);
+    }
+
+    .recipe-card img {
+      width: 100%;
+      height: auto;
+    }
+
+    .recipe-card .recipe-info {
+      padding: 10px;
+    }
+
+    .recipe-card h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .recipe-card p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 5px; /* Add some space between description and ingredients */
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Our Favourite Recipes</h1>
+  </header>
+
+  <div class="recipe-list">
+
+    <div class="recipe-card">
+      <img src="https://www.allrecipes.com/thmb/UdRDzff-6EaN6UwBA52avi_aE-4=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/19402-quick-and-easy-alfredo-sauce-DDMFS-4x3-17abb2055c714807944172db9172b045.jpg" alt="Alfredo Pasta">
+      <div class="recipe-info">
+        <h3>Alfredo Pasta</h3>
+        <p>A creamy delight made with fettuccine, butter, and Parmesan cheese. Indulgent and comforting, it's the ultimate comfort food classic.</p>
+        
+      </div>
+    </div>
+
+    <div class="recipe-card">
+      <img src="https://cdn.foodaciously.com/static/recipes/ee9fd204-25cf-4e97-be5a-d7626470d420/easy-vegan-momos-recipe-7ab341154a5c13d6d9642300e7e2c92d-640.webp" alt="Image of Tibetan Momos (Succhi)">
+      <div class="recipe-info">
+        <h3>Succhi (Tibetan Momos)</h3>
+        <p>A delicious dumpling dish from Tibet, traditionally filled with a savory meat mixture. These steamed delights are perfect as a snack or appetizer.</p>
+        
+      </div>
+    </div>
+    <div class="recipe-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuykT7brRTT3UvjGWc1FEPeKw7tWX08KyFCw&s" alt="Strawberry icecream">
+        <div class="recipe-info">
+          <h3>Ice Cream</h3>
+          <p>A refreshing and delicious treat, perfect for a hot summer day.  This recipe is a basic template that you can customize with your favorite flavors and ingredients.</p>
+          
+        </div>
+      </div>
+
