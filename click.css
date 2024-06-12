@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .pasta-link {
+    display: inline-block;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .pasta-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pasta-image {
+    max-width: 30%;
+    height: auto;
+    display: block;
+  }
